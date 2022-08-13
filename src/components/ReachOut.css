@@ -1,0 +1,28 @@
+.reach-out {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  gap: 35px;
+  text-align: center;
+}
+
+.reachOut-btn {
+  border-radius: 20px;
+  background-color: #38cac3;
+  color: #fff;
+  padding: 18px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: 0.2s ease-in-out;
+}
+
+.reachOut-btn:hover {
+  background-color: #32bbb4;
+  cursor: pointer;
+}
+
+.reachOut-text {
+  font-size: 1.8rem;
+}

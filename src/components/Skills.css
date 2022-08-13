@@ -1,0 +1,90 @@
+.skills-wrapper {
+  background-color: #45cfc8;
+  padding: 25px 0;
+  margin: 60px 0;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.19);
+}
+
+.skills-wrapper .headline-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headline {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin-right: 10px;
+}
+
+.skills-headline-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 900px;
+  margin: 20px auto;
+  color: rgb(56, 56, 56);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.19);
+}
+
+/* Skill icons */
+
+.skill .skill-icon-react {
+  font-size: 4rem;
+  color: #61dbfb;
+}
+
+.skill .skill-icon-css {
+  font-size: 4rem;
+  color: #dd3a0a;
+}
+
+.skill .skill-icon-python {
+  font-size: 4rem;
+  color: rgb(255, 208, 60);
+}
+
+.skill .skill-icon-html {
+  font-size: 4rem;
+
+  color: #e54c26;
+}
+
+.skill .skill-icon-javascript {
+  font-size: 4rem;
+  color: #f0db4f;
+}
+
+.skill .skill-icon-github {
+  font-size: 4rem;
+  color: #333;
+}
+
+@media only screen and (max-width: 700px) {
+  .slider {
+  }
+  .slide {
+  }
+  .heading {
+  }
+}

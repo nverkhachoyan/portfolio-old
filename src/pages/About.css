@@ -1,0 +1,32 @@
+.about {
+  display: grid;
+  grid-template-areas:
+    "headline img img"
+    "text img img"
+    "text img img"
+    "text img img"
+    "text img img"
+    "text img img"
+    "text img img";
+
+  gap: 0px 40px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.about-headline {
+  grid-area: headline;
+}
+
+.about-text {
+  grid-area: text;
+  font-size: 1.1rem;
+}
+
+.about-image {
+  grid-area: img;
+  width: 400px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.19);
+}
